@@ -99,11 +99,8 @@ async function purchase(){
       console.log("Cake purchase")
       resolve()
   },5000)
-
 })
 }
-
-
 async function curtain(){
   return new Promise((resolve,reject)=>{
   setTimeout(()=>{
